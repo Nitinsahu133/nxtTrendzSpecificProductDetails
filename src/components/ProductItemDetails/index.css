@@ -1,0 +1,143 @@
+/* Write your CSS here */
+.product-details-main-container {
+  display: flex;
+  padding: 30px;
+}
+.product-image-container {
+  width: 300px;
+  border-radius: 10px;
+  margin: 30px;
+  height: 100%;
+}
+.loader-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.product-title {
+  font-family: Roboto;
+  color: #475569;
+  margin-top: 30px;
+}
+.product-price {
+  font-family: Roboto;
+  color: #12022f;
+  font-weight: 600;
+}
+.d-flex-align-item-center {
+  display: flex;
+  align-items: center;
+}
+.review {
+  font-family: Roboto;
+  color: white;
+  font-size: 14px;
+  border-radius: 2px;
+  font-weight: 500;
+  background-color: #3b82f6;
+  padding: 3px;
+}
+.rating-paragraph {
+  margin: 0;
+  padding: 0;
+}
+.star {
+  margin-left: 2px;
+  margin-top: 3px;
+  width: 15px;
+  height: 15px;
+}
+.total-reviews {
+  color: #475569;
+  font-size: 14px;
+  font-family: roboto;
+  margin: 0;
+  padding: 0;
+  margin-left: 10px;
+}
+.description {
+  font-size: 15px;
+  font-family: Roboto;
+  max-width: 400px;
+  color: #475569;
+}
+.specification-key {
+  color: #12022f;
+  font-weight: 500;
+}
+.qty-increase-decrease-btn {
+  padding: 0;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  color: #475569;
+  font-size: 16px;
+  margin-top: 20px;
+}
+.qty {
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 500;
+  padding: 0;
+  margin: 0;
+  margin-top: 15px;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+.add-to-cart-btn {
+  font-family: Roboto;
+  color: white;
+  font-size: 14px;
+  border-radius: 2px;
+  font-weight: 500;
+  background-color: #3b82f6;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  margin-top: 20px;
+}
+.failure-view-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+}
+.failure-image {
+  width: 50%;
+}
+.product-not-found-heading {
+  font-family: Roboto;
+  font-size: 30px;
+}
+.continue-shopping-button {
+  color: white;
+  font-family: Roboto;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  outline: none;
+  border: none;
+  border-radius: 3px;
+  background-color: #3b82f6;
+  cursor: pointer;
+}
+.similar-product-heading {
+  font-family: Roboto;
+  font-size: 20px;
+  margin-left: 60px;
+  margin-top: 40px;
+}
+.similar-product-ul {
+  padding: none;
+  list-style-type: none;
+  font-family: roboto;
+  display: flex;
+  flex-wrap: wrap;
+}
